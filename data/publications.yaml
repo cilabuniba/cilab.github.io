@@ -1,0 +1,89 @@
+- year: 2026
+  authors: "P. De Marinis, G. Vessio, G. Castellano"
+  title: "Take a peek: Efficient encoder adaptation for few-shot semantic segmentation via LoRA"
+  venue: "Pattern Recognition Letters"
+  url: "https://doi.org/10.1016/j.patrec.2026.01.013"
+- year: 2026
+  authors: "G. Zaza, R. Scaringi, G. Vessio, G. Castellano"
+  title: "FuzzyGNN: a graph neural network framework for enhanced fuzzy modeling"
+  venue: "Neural Computing and Applications"
+- year: 2026
+  authors: "A. Andrisani, G. Vessio, F. Sgobba, F. Di Lena, L.A. Santamaria, G. Castellano"
+  title: "Modeling and benchmarking quantum optical neurons for efficient neural computation"
+  venue: "PLOS ONE"
+- year: 2026
+  authors: "E. Colonna, I. Rinaldi, D. Landi, G. Vessio, G. Castellano"
+  title: "Handscribe: A gloss-free framework for sign language translation and gloss sequence generation"
+  venue: "Computer Vision and Image Understanding"
+- year: 2025
+  authors: "F. Brescia, B.E. Alemán Santana, M. Diaz, G. Vessio, M.A. Ferrer, G. Castellano"
+  title: "Integrating robotic kinematics and dynamics with online handwriting features for dysgraphia classification"
+  venue: "Biomedical Signal Processing and Control"
+- year: 2025
+  authors: "P. De Marinis, N. Fanelli, R. Scaringi, E. Colonna, G. Fiameni, G. Vessio, G. Castellano"
+  title: "Label Anything: Multi-Class Few-Shot Semantic Segmentation with Visual Prompts"
+  venue: "ECAI"
+- year: 2025
+  authors: "A.G. Valerio, K. Trufanova, S. de Benedictis, G. Vessio, G. Castellano"
+  title: "From segmentation to explanation: Generating textual reports from MRI with LLMs"
+  venue: "Computer Methods and Programs in Biomedicine"
+- year: 2025
+  authors: "R. Scaringi, G. Fiameni, G. Vessio, G. Castellano"
+  title: "GraphCLIP: Image-graph contrastive learning for multimodal artwork classification"
+  venue: "Knowledge-Based Systems"
+- year: 2025
+  authors: "N. Fanelli, G. Vessio, G. Castellano"
+  title: "I Dream My Painting: Connecting MLLMs and Diffusion Models via Prompt Generation for Text-Guided Multi-Mask Inpainting"
+  venue: "WACV"
+- year: 2024
+  authors: "I. Rinaldi, N. Fanelli, G. Castellano, G. Vessio"
+  title: "Art2Mus: Bridging Visual Arts and Music through Cross-Modal Generation"
+  venue: "ECCV Workshops"
+- year: 2024
+  authors: "G. Castellano, A. Esposito, E. Lella, G. Montanaro, G. Vessio"
+  title: "Automated detection of Alzheimer's disease: a multi-modal approach with 3D MRI and amyloid PET"
+  venue: "Scientific Reports"
+- year: 2023
+  authors: "G. Castellano, P. De Marinis, G. Vessio"
+  title: "Weed mapping in multispectral drone imagery using lightweight vision transformers"
+  venue: "Neurocomputing"
+- year: 2023
+  authors: "G. Castellano, E. Cotardo, C. Mencar, G. Vessio"
+  title: "Density-based clustering with fully-convolutional networks for crowd flow detection from drones"
+  venue: "Neurocomputing"
+- year: 2022
+  authors: "G. Castellano, G. Vessio"
+  title: "A deep learning approach to clustering visual arts"
+  venue: "International Journal of Computer Vision"
+- year: 2022
+  authors: "G. Castellano, V. Digeno, G. Sansaro, G. Vessio"
+  title: "Leveraging knowledge graphs and deep learning for automatic art analysis"
+  venue: "Knowledge-Based Systems"
+- year: 2022
+  authors: "K. Kaczmarek-Majer, G. Casalino, G. Castellano, M. Dominiak, O. Hryniewicz, O. Kamińska, et al."
+  title: "PLENARY: Explaining black-box models in natural language through fuzzy linguistic summaries"
+  venue: "Information Sciences"
+- year: 2022
+  authors: "K. Kaczmarek-Majer, G. Casalino, G. Castellano, O. Hryniewicz, M. Dominiak"
+  title: "Explaining smartphone-based acoustic data in bipolar disorder: Semi-supervised fuzzy clustering and relative linguistic summaries"
+  venue: "Information Sciences"
+- year: 2022
+  authors: "G. Casalino, G. Castellano, C. Castiello, C. Mencar"
+  title: "Effect of fuzziness in fuzzy rule-based classifiers defined by strong fuzzy partitions and winner-takes-all inference"
+  venue: "Soft Computing"
+- year: 2021
+  authors: "G. Castellano, G. Vessio"
+  title: "Deep learning approaches to pattern extraction and recognition in paintings and drawings: An overview"
+  venue: "Neural Computing and Applications"
+- year: 2021
+  authors: "G. Castellano, E. Lella, G. Vessio"
+  title: "Visual link retrieval and knowledge discovery in painting datasets"
+  venue: "Multimedia Tools and Applications"
+- year: 2021
+  authors: "A. Moral, C. Castiello, L. Magdalena, C. Mencar"
+  title: "Explainable fuzzy systems"
+  venue: "Springer"
+- year: 2020
+  authors: "G. Castellano, C. Castiello, C. Mencar, G. Vessio"
+  title: "Crowd detection in aerial images using spatial graphs and fully-convolutional neural networks"
+  venue: "IEEE Access"

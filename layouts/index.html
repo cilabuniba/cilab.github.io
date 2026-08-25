@@ -1,0 +1,66 @@
+{{ define "main" }}
+<section class="home-hero home-hero-final">
+  <div class="shell home-hero-grid home-hero-grid-final">
+    <div class="hero-copy hero-copy-final">
+      <p class="eyebrow">University of Bari Aldo Moro · Department of Computer Science</p>
+      <h1>Computational Intelligence Laboratory</h1>
+      <p class="hero-lead">CILab conducts fundamental and applied research in Computational Intelligence, combining machine learning, deep learning, fuzzy modelling and explainable AI with real-world applications.</p>
+    </div>
+    <aside class="hero-aside" aria-label="CILab affiliation">
+      <img src="/images/cilab-logo-blue.svg" class="hero-logo" alt="CILab logo">
+      <p>Via E. Orabona, 4<br>70125 Bari, Italy</p>
+      <div class="hero-aside-links"><a href="/people/">People</a><a href="/contact/">Contact</a></div>
+    </aside>
+  </div>
+</section>
+
+<section class="section about-home">
+  <div class="shell content-grid">
+    <div class="section-label"><span>About CILab</span></div>
+    <div class="lead-copy">
+      <p>CILab is a research laboratory of the Department of Computer Science at the University of Bari Aldo Moro, coordinated by Prof. Giovanna Castellano.</p>
+      <p>Our work spans intelligent data analysis and visual understanding, with particular attention to efficient, interpretable and trustworthy methods that can move beyond benchmarks and operate in complex application domains.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section research-home">
+  <div class="shell">
+    <div class="section-title-row"><div><p class="section-kicker">Research</p><h2>Areas of expertise</h2></div><a class="text-link" href="/research/">View all research</a></div>
+    <div class="research-grid-home">
+      {{ range first 4 (where site.RegularPages "Section" "research") }}
+      <a class="research-tile" href="{{ .RelPermalink }}"><span class="tile-number">0{{ .Params.order }}</span><h3>{{ .Title }}</h3><p>{{ .Params.summary }}</p><span class="tile-link">Explore area →</span></a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section projects-home">
+  <div class="shell">
+    <div class="section-title-row"><div><p class="section-kicker">Selected projects</p><h2>Research in practice</h2></div><a class="text-link" href="/projects/">All projects</a></div>
+    <div class="project-list-home">
+      {{ range first 3 site.Data.projects }}<article><div><span class="project-status">{{ .status }}</span><h3>{{ .title }}</h3></div><p>{{ .description }}</p></article>{{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section mission-home">
+  <div class="shell">
+    <div class="section-title-row compact"><div><p class="section-kicker">Mission</p><h2>What we do</h2></div></div>
+    <div class="mission-grid-home">
+      <article><h3>Develop</h3><p>Innovative methods and models in Computational Intelligence.</p></article>
+      <article><h3>Apply</h3><p>Research expertise to real-world problems across scientific and societal domains.</p></article>
+      <article><h3>Disseminate</h3><p>Knowledge through publications, teaching, collaboration and outreach.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section news-home">
+  <div class="shell">
+    <div class="section-title-row"><div><p class="section-kicker">News</p><h2>Latest from CILab</h2></div><a class="text-link" href="/news/">News archive</a></div>
+    <div class="news-home-grid">{{ range first 3 (where site.RegularPages "Section" "news") }}<article class="news-item-home"><time>{{ .Date.Format "02 Jan 2006" }}</time><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Params.summary }}</p><a class="text-link small" href="{{ .RelPermalink }}">Read more</a></article>{{ end }}</div>
+  </div>
+</section>
+
+<section class="opportunities-home"><div class="shell opportunities-grid"><div><p class="section-kicker">Students</p><h2>Thesis opportunities</h2></div><div><p>We welcome motivated B.Sc. and M.Sc. students interested in our research topics. Thesis projects may also be carried out with external partners when appropriate.</p><a class="text-link inverse" href="/theses/">Explore thesis opportunities →</a></div></div></section>
+{{ end }}

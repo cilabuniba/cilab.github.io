@@ -1,0 +1,40 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'CILab — Computational Intelligence Laboratory'
+disableKinds = ['taxonomy','term']
+
+[params]
+  description = 'Computational Intelligence Laboratory — Department of Computer Science, University of Bari Aldo Moro.'
+  university = 'University of Bari Aldo Moro'
+  department = 'Department of Computer Science'
+  address = 'Via E. Orabona, 4 · 70125 Bari, Italy'
+
+[menu]
+  [[menu.main]]
+    name = 'Research'
+    pageRef = '/research'
+    weight = 10
+  [[menu.main]]
+    name = 'Publications'
+    pageRef = '/publications'
+    weight = 20
+  [[menu.main]]
+    name = 'Projects'
+    pageRef = '/projects'
+    weight = 25
+  [[menu.main]]
+    name = 'People'
+    pageRef = '/people'
+    weight = 30
+  [[menu.main]]
+    name = 'Theses'
+    pageRef = '/theses'
+    weight = 40
+  [[menu.main]]
+    name = 'News'
+    pageRef = '/news'
+    weight = 50
+  [[menu.main]]
+    name = 'Contact'
+    pageRef = '/contact'
+    weight = 60

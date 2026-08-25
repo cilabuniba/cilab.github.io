@@ -1,0 +1,4 @@
+{{ define "main" }}
+<section class="page-hero"><div class="shell narrow"><p class="eyebrow">Research output</p><h1>Publications</h1><p class="page-lead">A selected list of recent CILab publications, separated from research topics to make the laboratory's scientific output easier to browse and maintain.</p></div></section>
+<section class="section"><div class="shell publication-wrap"><div class="pub-toolbar"><span>Selected recent publications</span><span>{{ len site.Data.publications }} entries</span></div><ol class="pub-list">{{ range site.Data.publications }}<li><div class="pub-year">{{ .year }}</div><div><p class="pub-title">{{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</p><p class="pub-meta">{{ .authors }} · <em>{{ .venue }}</em></p></div></li>{{ end }}</ol></div></section>
+{{ end }}

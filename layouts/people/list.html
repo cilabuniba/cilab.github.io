@@ -1,0 +1,14 @@
+{{ define "main" }}
+<section class="page-hero"><div class="shell narrow"><p class="eyebrow">The lab</p><h1>People</h1><p class="page-lead">Faculty, researchers and doctoral students working across Computational Intelligence and its applications.</p></div></section>
+<section class="section"><div class="shell people-sections">
+{{ range $group := slice "Faculty" "Researchers" "PhD Students" }}
+<section><div class="section-head"><h2>{{ $group }}</h2></div><div class="people-grid">
+{{ range where site.Data.people "group" $group }}<article class="person-card person-card-photo">
+<div class="person-photo-wrap">{{ if .image }}<img class="person-photo" src="{{ .image }}" alt="{{ .name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">{{ end }}<div class="person-avatar" {{ if .image }}style="display:none"{{ end }}>{{ substr .name 0 1 }}</div></div>
+<div><p class="person-role">{{ .role }}</p><h3><a href="{{ .profile }}">{{ .name }}</a></h3><p>{{ .interests }}</p><a class="text-link" href="{{ .profile }}">Profile →</a></div>
+</article>{{ end }}
+</div></section>{{ end }}
+<section><div class="section-head"><h2>Visiting Professors & Researchers</h2></div><div class="compact-people-list">{{ range site.Data.visitors }}<a href="{{ .url }}" target="_blank" rel="noopener"><strong>{{ .name }}</strong><span>{{ .year }}</span></a>{{ end }}</div></section>
+<section><div class="section-head"><h2>Alumni</h2></div><div class="alumni-list">{{ range site.Data.alumni }}<div><strong>{{ .name }}</strong><span>{{ .note }}</span></div>{{ end }}</div></section>
+</div></section>
+{{ end }}

@@ -1,0 +1,4 @@
+{{ define "main" }}
+<section class="page-hero"><div class="shell narrow"><p class="eyebrow">{{ if eq .Section "news" }}News{{ else }}{{ .Section | title }}{{ end }}</p><h1>{{ .Title }}</h1>{{ with .Params.summary }}<p class="page-lead">{{ . }}</p>{{ end }}{{ if eq .Section "news" }}<p class="meta">{{ .Date.Format "02 January 2006" }}</p>{{ end }}</div></section>
+<section class="section"><article class="shell prose">{{ .Content }}</article></section>
+{{ end }}

@@ -1,0 +1,16 @@
+- title: VISTA — Visual Assistance from Drones for Roadside Rescue
+  status: Active
+  period: 2024–2026
+  lead: Gennaro Vessio
+  description: Research and validation of drone-based visual assistance, computer vision and AI to improve situational awareness and support post-crash emergency response.
+  tags: [Computer Vision, Drones, Road Safety, Real-world AI]
+- title: NEED — Next-Gen Digital Diagnostics
+  status: Active
+  lead: Giovanna Castellano
+  description: Explainable and trustworthy AI methods for digital diagnostics, with a focus on making machine-learning support more transparent and clinically meaningful.
+  tags: [Healthcare, XAI, Medical AI]
+- title: FAIR — Future Artificial Intelligence Research, Spoke 6
+  status: Research programme
+  lead: Giovanna Castellano
+  description: CILab contributes to research on understandable and symbiotic AI systems, combining interpretability, fuzzy modelling and human-centred approaches.
+  tags: [Symbiotic AI, Explainable AI, Fuzzy Systems]
