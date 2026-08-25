@@ -1,6 +1,6 @@
-# CILab website — Hugo
+# CILab website
 
-Final redesign of the Computational Intelligence Laboratory (CILab), Department of Computer Science, University of Bari Aldo Moro.
+Redesign of the Computational Intelligence Laboratory (CILab), Department of Computer Science, University of Bari Aldo Moro.
 
 ## Local preview
 
