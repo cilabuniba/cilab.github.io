@@ -8,6 +8,8 @@
   title: "WeedDiffusion: A Dual-Branch Synthetic Augmentation Framework for Weed Mapping"
   venue: "International Conference on Pattern Recognition (ICPR)"
   url: "https://doi.org/10.1007/978-3-032-31583-0_36"
+  code: "https://github.com/pasqualedem/WeedDiffusion"
+  page: "https://pasqualedem.github.io/WeedDiffusion/"
 
 - category: "recent"
   year: 2026
@@ -15,6 +17,8 @@
   title: "Take a peek: Efficient encoder adaptation for few-shot semantic segmentation via LoRA"
   venue: "Pattern Recognition Letters"
   url: "https://doi.org/10.1016/j.patrec.2026.01.013"
+  code: "https://github.com/pasqualedem/TakeAPeek"
+  page: "https://pasqualedem.github.io/TakeAPeek/"
 
 - category: "recent"
   year: 2026
@@ -50,6 +54,8 @@
   title: "Label Anything: Multi-Class Few-Shot Semantic Segmentation with Visual Prompts"
   venue: "European Conference on Artificial Intelligence (ECAI)"
   url: "https://doi.org/10.3233/FAIA251289"
+  code: "https://github.com/pasqualedem/LabelAnything"
+  page: "https://pasqualedem.github.io/LabelAnything"
 
 - category: "recent"
   year: 2025
@@ -71,6 +77,8 @@
   title: "I Dream My Painting: Connecting MLLMs and Diffusion Models via Prompt Generation for Text-Guided Multi-Mask Inpainting"
   venue: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
   url: "https://doi.org/10.1109/WACV61041.2025.00592"
+  code: "https://github.com/cilabuniba/i-dream-my-painting"
+  page: "https://cilabuniba.github.io/i-dream-my-painting/"
 
 - category: "recent"
   year: 2025
