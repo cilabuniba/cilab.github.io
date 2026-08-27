@@ -1,0 +1,6 @@
+<article class="pub-card">
+  <div class="pub-card-top"><span class="pub-year">{{ .year }}</span>{{ with .venue }}<span class="pub-venue">{{ . }}</span>{{ end }}</div>
+  <h3 class="pub-title">{{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3>
+  <p class="pub-authors">{{ .authors }}</p>
+  {{ with .url }}<a class="pub-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">&#8599;</span></a>{{ end }}
+</article>
