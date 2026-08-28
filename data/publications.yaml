@@ -10,13 +10,14 @@
   url: "https://doi.org/10.1007/978-3-032-31583-0_36"
   code: "https://github.com/pasqualedem/WeedDiffusion"
   page: "https://pasqualedem.github.io/WeedDiffusion/"
+  models: "https://huggingface.co/pasqualedem/weeddiffusion"
 
 - category: "recent"
   year: 2026
   authors: "P. De Marinis, G. Vessio, G. Castellano"
   title: "Take a peek: Efficient encoder adaptation for few-shot semantic segmentation via LoRA"
   venue: "Pattern Recognition Letters"
-  url: "https://doi.org/10.1016/j.patrec.2026.01.013"
+  url: "https://doi.org/10.1016/j.patrec.2026.06.003"
   code: "https://github.com/pasqualedem/TakeAPeek"
   page: "https://pasqualedem.github.io/TakeAPeek/"
 
@@ -26,6 +27,7 @@
   title: "FuzzyGNN: a graph neural network framework for enhanced fuzzy modeling"
   venue: "Neural Computing and Applications"
   url: "https://doi.org/10.1007/s00521-026-11967-7"
+  code: "https://github.com/cilabuniba/fuzzygnn"
 
 - category: "recent"
   year: 2026
@@ -33,6 +35,7 @@
   title: "Modeling and benchmarking quantum optical neurons for efficient neural computation"
   venue: "PLOS ONE"
   url: "https://doi.org/10.1371/journal.pone.0341545"
+  code: "https://github.com/gvessio/quantum-optical-neurons"
 
 - category: "recent"
   year: 2026
@@ -40,6 +43,7 @@
   title: "Handscribe: A gloss-free framework for sign language translation and gloss sequence generation"
   venue: "Computer Vision and Image Understanding"
   url: "https://doi.org/10.1016/j.cviu.2026.104674"
+  code: "https://github.com/colonnaemanuele/Handscribe"
 
 - category: "recent"
   year: 2026
@@ -59,10 +63,19 @@
 
 - category: "recent"
   year: 2025
+  authors: "G. Zaza, G. Casalino, S. Caputo, G. Castellano"
+  title: "Estimating blood pressure using video-based PPG and deep learning"
+  venue: "Image and Vision Computing"
+  url: "https://doi.org/10.1016/j.imavis.2025.105683"
+
+- category: "recent"
+  year: 2025
   authors: "A.G. Valerio, K. Trufanova, S. de Benedictis, G. Vessio, G. Castellano"
   title: "From segmentation to explanation: Generating textual reports from MRI with LLMs"
   venue: "Computer Methods and Programs in Biomedicine"
   url: "https://doi.org/10.1016/j.cmpb.2025.108922"
+  code: "https://github.com/albertovalerio/from-segmentation-to-explanation"
+  demo: "https://demo-ern2024.albertovalerio.com/"
 
 - category: "recent"
   year: 2025
@@ -70,6 +83,8 @@
   title: "GraphCLIP: Image-graph contrastive learning for multimodal artwork classification"
   venue: "Knowledge-Based Systems"
   url: "https://doi.org/10.1016/j.knosys.2024.112857"
+  code: "https://github.com/CILAB-ArtGraph/graphclip"
+  dataset: "https://doi.org/10.5281/zenodo.8172374"
 
 - category: "recent"
   year: 2025
@@ -93,6 +108,7 @@
   title: "Art2Mus: Bridging Visual Arts and Music through Cross-Modal Generation"
   venue: "European Conference on Computer Vision Workshops (ECCV Workshops)"
   url: "https://doi.org/10.1007/978-3-031-92808-6_11"
+  code: "https://github.com/justivanr/art2mus_"
 
 - category: "recent"
   year: 2024
@@ -100,6 +116,7 @@
   title: "Automated detection of Alzheimer's disease: a multi-modal approach with 3D MRI and amyloid PET"
   venue: "Scientific Reports"
   url: "https://doi.org/10.1038/s41598-024-56001-9"
+  code: "https://github.com/montanarograziano/Multimodal-approach-for-AD"
 
 
 # ============================================================
@@ -142,6 +159,13 @@
   url: "https://doi.org/10.1007/978-3-030-71098-9"
 
 - category: "landmark"
+  year: 2020
+  authors: "G. Castellano, C. Castiello, M. Cianciotta, C. Mencar, G. Vessio"
+  title: "Multi-view Convolutional Network for Crowd Counting in Drone-Captured Images"
+  venue: "European Conference on Computer Vision Workshops (ECCV Workshops)"
+  url: "https://doi.org/10.1007/978-3-030-66823-5_35"
+
+- category: "landmark"
   year: 2017
   authors: "G. Castellano, C. Castiello, V. Pasquadibisceglie, G. Zaza"
   title: "FISDeT: Fuzzy Inference System Development Tool"
@@ -168,13 +192,6 @@
   title: "Interface optimality in fuzzy inference systems"
   venue: "International Journal of Approximate Reasoning"
   url: "https://doi.org/10.1016/j.ijar.2005.06.005"
-
-- category: "landmark"
-  year: 2003
-  authors: "G. Castellano, A.M. Fanelli, C. Mencar"
-  title: "Fuzzy Information Granules: a Compact, Transparent and Efficient Representation"
-  venue: "Journal of Advanced Computational Intelligence and Intelligent Informatics"
-  url: "https://doi.org/10.20965/jaciii.2003.p0160"
 
 - category: "landmark"
   year: 2002
