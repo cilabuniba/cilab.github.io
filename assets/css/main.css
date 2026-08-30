@@ -41,8 +41,12 @@ p{margin:0 0 1rem}
 
 /* Research: simple academic cards, not product cards */
 .research-home{background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.research-grid-home,.research-grid{display:grid;grid-template-columns:repeat(2,1fr);border-top:1px solid #aeb9c6;border-left:1px solid #aeb9c6}
-.research-tile,.research-card{display:block;background:#fff;padding:30px 31px 28px;border-right:1px solid #aeb9c6;border-bottom:1px solid #aeb9c6;min-height:245px}
+.research-grid-home,.research-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  border-top:1px solid #aeb9c6;
+  border-left:1px solid #aeb9c6;
+}.research-tile,.research-card{display:block;background:#fff;padding:30px 31px 28px;border-right:1px solid #aeb9c6;border-bottom:1px solid #aeb9c6;min-height:245px}
 .research-tile:hover h3,.research-card:hover h3{color:var(--blue)}.tile-number,.card-index{display:block;font-size:.72rem;font-weight:800;color:var(--blue);margin-bottom:25px}.research-tile h3,.research-card h3{font-size:1.28rem;line-height:1.3;margin:0 0 12px;font-weight:720}.research-tile p,.research-card p{font-size:.93rem;color:var(--muted);margin-bottom:24px;max-width:480px}.tile-link,.research-card span:last-child{font-size:.78rem;font-weight:750;color:var(--blue)}
 
 .mission-home{background:#fff}.mission-grid-home,.mission-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line)}.mission-grid-home article,.mission-grid article{padding:25px 42px 12px 0}.mission-grid-home article+article,.mission-grid article+article{border-left:1px solid var(--line);padding-left:42px}.mission-grid-home h3,.mission-grid h3{font-size:1rem;color:var(--blue);margin:0 0 8px}.mission-grid-home p,.mission-grid p{font-size:.93rem;color:var(--muted)}
@@ -133,4 +137,15 @@ p{margin:0 0 1rem}
 .resource-link:focus-visible {
   outline: 2px solid #EAC435;
   outline-offset: 4px;
+}
+
+.lead-copy a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.lead-copy a:hover {
+  opacity: 0.65;
 }

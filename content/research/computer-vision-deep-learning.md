@@ -1,10 +1,17 @@
 ---
 title: "Computer Vision and Deep Learning"
 order: 1
-summary: "Visual intelligence for digital humanities, drone vision, semantic understanding and multimodal systems."
+summary: "Efficient and multimodal methods for visual intelligence, spanning deep learning, generative models and real-world visual understanding."
 ---
-Computer vision and deep learning are powerful tools for extracting meaningful information from unstructured data and performing complex tasks with high accuracy. At CILab, we develop solutions in several areas, including digital humanities and drone vision.
 
-In digital humanities, visual learning can support the analysis of large art collections and reveal patterns connected with history, culture and society. In drone vision, image understanding provides valuable information for applications such as agriculture, crowd analysis and autonomous monitoring.
+Visual intelligence is one of the main research directions at CILab. We investigate computational methods that enable machines to extract, represent and reason about information from images, video and multimodal data, with a particular focus on deep learning.
 
-The laboratory's recent work includes efficient adaptation, few-shot semantic segmentation, multimodal artwork understanding, sign-language translation, biomedical vision and drone imagery.
+Our research spans **image classification, object detection and segmentation, representation learning, graph-based models, generative AI and multimodal learning**. We are interested not only in predictive performance, but also in how effective representations can be learned when data, annotations or computational resources are limited.
+
+A growing direction concerns **efficient and sustainable AI**. We investigate resource-efficient architectures and learning strategies aimed at reducing computational and memory requirements during training and inference. This direction connects contemporary deep learning with a long-standing CILab interest in computational efficiency and is particularly relevant when intelligent models must operate on resource-constrained or edge devices.
+
+We also investigate **multimodal and knowledge-aware learning**, combining visual information with text, structured knowledge and other data modalities. Graph-based representations, knowledge graphs and vision-language models provide complementary ways to enrich visual information with semantic and contextual knowledge.
+
+**Generative models** represent another increasingly important direction, both as tools for synthesizing visual and multimodal content and as mechanisms for learning richer representations from complex data.
+
+Across these topics, our goal is to develop visual intelligence methods that can move beyond controlled benchmarks and operate effectively under real-world constraints.

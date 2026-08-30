@@ -1,4 +1,4 @@
 ---
 title: "Research"
-lead: "We design Computational Intelligence methods that combine learning, uncertainty modeling and explainability, then bring them to challenging real-world domains."
+lead: "CILab combines methodological research in visual and multimodal learning, fuzzy and trustworthy AI, and the development of intelligent systems for challenging real-world domains."
 ---

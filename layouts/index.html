@@ -18,8 +18,16 @@
   <div class="shell content-grid">
     <div class="section-label"><span>About CILab</span></div>
     <div class="lead-copy">
-      <p>CILab is a research laboratory of the Department of Computer Science at the University of Bari Aldo Moro, coordinated by Prof. Giovanna Castellano.</p>
-      <p>Our work spans intelligent data analysis and visual understanding, with particular attention to efficient, interpretable and trustworthy methods that can move beyond benchmarks and operate in complex application domains.</p>
+      <p>
+        CILab is a research laboratory of the
+        <a href="https://www.uniba.it/en/research/departments/department-of-computer-science?set_language=en" target="_blank" rel="noopener noreferrer">Department of Computer Science</a>
+        at the
+        <a href="https://www.uniba.it/en/" target="_blank" rel="noopener noreferrer">University of Bari Aldo Moro</a>,
+        coordinated by Prof. Giovanna Castellano.
+      </p>
+      <p>
+        Our work spans intelligent data analysis and visual understanding, with particular attention to efficient, interpretable and trustworthy methods that can move beyond benchmarks and operate in complex application domains.
+      </p>
     </div>
   </div>
 </section>
@@ -28,7 +36,7 @@
   <div class="shell">
     <div class="section-title-row"><div><p class="section-kicker">Research</p><h2>Areas of expertise</h2></div><a class="text-link" href="/research/">View all research</a></div>
     <div class="research-grid-home">
-      {{ range first 4 (where site.RegularPages "Section" "research") }}
+      {{ range first 3 (sort (where site.RegularPages "Section" "research") "Params.order" "asc") }}
       <a class="research-tile" href="{{ .RelPermalink }}"><span class="tile-number">0{{ .Params.order }}</span><h3>{{ .Title }}</h3><p>{{ .Params.summary }}</p><span class="tile-link">Explore area →</span></a>
       {{ end }}
     </div>
