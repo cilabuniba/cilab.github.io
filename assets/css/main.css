@@ -175,3 +175,7 @@ p{margin:0 0 1rem}
 .lead-copy a:hover {
   opacity: 0.65;
 }
+
+.thesis-opportunities-home {
+  border-top: 1px solid var(--line);
+}
