@@ -9,12 +9,12 @@
   status: Completed
   period: 2025–2026
   lead: Giovanna Castellano
-  description: Research on explainable and trustworthy AI methods for digital diagnostics, with a focus on making machine-learning support more transparent and clinically meaningful.
-  tags: [Healthcare, XAI, Medical AI]
+  description: Research on explainable and trustworthy AI methods for digital diagnostics, with a focus on multimodal medical data and clinically meaningful explanations.
+  tags: [Healthcare, XAI, Medical AI, Multimodal AI]
 
 - title: FAIR — Future Artificial Intelligence Research, Spoke 6
   status: Completed
   period: 2023–2026
-  lead: Giovanna Castellano
-  description: CILab contributed to research on understandable and symbiotic AI systems, combining interpretability, fuzzy modelling and human-centred approaches.
-  tags: [Symbiotic AI, Explainable AI, Fuzzy Systems]
+  lead: Giovanna Castellano (WP6.4 Lead)
+  description: Research within Spoke 6 — Symbiotic AI, with CILab leading WP6.4 on the understandability of AI systems and contributing methods for interpretable and human-understandable AI.
+  tags: [Symbiotic AI, Explainable AI, Fuzzy Systems, Trustworthy AI]

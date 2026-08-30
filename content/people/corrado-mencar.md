@@ -2,9 +2,11 @@
 title: "Corrado Mencar"
 role: "Associate Professor"
 email: "corrado.mencar@uniba.it"
-interests: ["Granular Computing", "Computational Intelligence", "Soft Computing", "Fuzzy Systems", "Interpretable Modeling"]
+interests: ["Granular Computing", "Fuzzy Systems", "Interpretable Modeling", "Explainable AI", "Intelligent Data Analysis"]
 homepage: "https://www.uniba.it/it/docenti/mencar-corrado"
 ---
-Corrado Mencar is an Associate Professor in Computer Science at the University of Bari Aldo Moro. His research interests include **Granular Computing**, Computational Intelligence, soft computing, intelligent data analysis, fuzzy sets and systems, interpretable fuzzy modeling, and bioinformatics.
+Corrado Mencar is an Associate Professor in Computer Science at the University of Bari Aldo Moro. His research focuses on **Granular Computing, fuzzy systems and intelligent data analysis**, with particular attention to interpretable representations of complex information.
 
-He is active in scientific societies and task forces related to fuzzy systems and explainable AI, including EUSFLAT, ACM, GNCS, and IEEE task forces on Explainable Fuzzy Systems and Fuzzy Systems Software.
+His work investigates fuzzy and granular models, information granulation and interpretable machine-learning approaches, contributing to the broader development of **Explainable Artificial Intelligence** from a Computational Intelligence perspective.
+
+He is active in scientific societies and international initiatives related to fuzzy systems, granular computing and explainable AI.
