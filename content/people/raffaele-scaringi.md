@@ -1,6 +1,7 @@
 ---
 title: "Raffaele Scaringi"
 role: "Postdoctoral Researcher"
+image: "/images/people/raffaele-scaringi.png"
 homepage: "https://faiail.github.io/"
 interests: ["Computer Vision", "Deep Learning", "Knowledge Graphs", "Graph Learning"]
 ---

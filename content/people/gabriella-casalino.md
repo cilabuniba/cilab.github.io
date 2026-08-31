@@ -3,7 +3,7 @@ title: "Gabriella Casalino"
 role: "Tenure-Track Assistant Professor"
 email: "gabriella.casalino@uniba.it"
 # location: "Room 674 · 6th floor"
-image: "https://lh3.googleusercontent.com/sitesv/AG8ngQW8I95aJWxWrdm-jmBBkTgd0qCc-kzTcl9M9QMgm_YiRtJVGJ_WpGnawAZqCKgwpwvtIATwMMobNR4QcDRRJPlxRPPuWOF2mMy6QOK395JuO7-Db-eg5cwqZRFrdaeao0wGB8aasLGtXhogH8PKQAbJbgImJwgOWlBMk5xHLzGQLYXBN8D-Il8V7r8c5FaQdhfGl0JY5qZGnbO8vDOAuOI6y5Knqxz_I9Uk50Mn=w1280"
+image: "/images/people/gabriella-casalino.png"
 interests: ["Intelligent Data Analysis", "eHealth", "Data Stream Mining", "Explainable AI", "Fuzzy Systems"]
 ---
 Gabriella Casalino is a Tenure-Track Assistant Professor at the Department of Computer Science, University of Bari Aldo Moro. Her research lies in **Computational Intelligence and intelligent data analysis**, with particular emphasis on eHealth, evolving data, fuzzy modelling and Explainable Artificial Intelligence.

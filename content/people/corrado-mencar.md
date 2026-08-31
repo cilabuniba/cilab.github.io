@@ -1,6 +1,7 @@
 ---
 title: "Corrado Mencar"
 role: "Associate Professor"
+image: "/images/people/corrado-mencar.png"
 email: "corrado.mencar@uniba.it"
 interests: ["Granular Computing", "Fuzzy Systems", "Interpretable Modeling", "Explainable AI", "Intelligent Data Analysis"]
 homepage: "https://www.uniba.it/it/docenti/mencar-corrado"

@@ -1,6 +1,7 @@
 ---
 title: "Ciro Castiello"
 role: "Associate Professor"
+image: "/images/people/ciro-castiello.png"
 email: "ciro.castiello@uniba.it"
 interests: ["Fuzzy Systems", "Explainable AI", "Interpretable Models", "Soft Computing", "Inductive Learning"]
 homepage: "https://www.uniba.it/it/docenti/castiello-ciro"

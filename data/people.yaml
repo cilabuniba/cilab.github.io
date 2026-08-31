@@ -9,12 +9,14 @@
   role: Associate Professor
   group: Faculty
   interests: Fuzzy Systems, Explainable AI, Interpretable Models, Soft Computing, Inductive Learning
+  image: /images/people/ciro-castiello.png
   slug: ciro-castiello
   profile: /people/ciro-castiello/
 - name: Corrado Mencar
   role: Associate Professor
   group: Faculty
   interests: Granular Computing, Fuzzy Systems, Interpretable Modeling, Explainable AI, Intelligent Data Analysis
+  image: /images/people/corrado-mencar.png
   slug: corrado-mencar
   profile: /people/corrado-mencar/
 - name: Gennaro Vessio
@@ -29,7 +31,7 @@
   role: Tenure-Track Assistant Professor
   group: Faculty
   interests: Intelligent Data Analysis, eHealth, Data Stream Mining, Explainable AI, Fuzzy Systems
-  image: https://lh3.googleusercontent.com/sitesv/AG8ngQW8I95aJWxWrdm-jmBBkTgd0qCc-kzTcl9M9QMgm_YiRtJVGJ_WpGnawAZqCKgwpwvtIATwMMobNR4QcDRRJPlxRPPuWOF2mMy6QOK395JuO7-Db-eg5cwqZRFrdaeao0wGB8aasLGtXhogH8PKQAbJbgImJwgOWlBMk5xHLzGQLYXBN8D-Il8V7r8c5FaQdhfGl0JY5qZGnbO8vDOAuOI6y5Knqxz_I9Uk50Mn=w1280
+  image: /images/people/gabriella-casalino.png
   slug: gabriella-casalino
   profile: /people/gabriella-casalino/
 # - name: Gianluca Zaza
@@ -52,13 +54,14 @@
   group: Researchers
   interests: Computer Vision, Deep Learning, Knowledge Graphs, Graph Learning
   homepage: https://faiail.github.io/
+  image: /images/people/raffaele-scaringi.png
   slug: raffaele-scaringi
   profile: /people/raffaele-scaringi/
 - name: Emanuele Colonna
   role: Contract Researcher
   group: Researchers
   interests: Computer Vision, Deep Learning, Generative Models, Vision-Language Learning, Sign Language
-  image: https://lh3.googleusercontent.com/sitesv/AG8ngQXPqvKQC5M8PlAodpwP13Qr8PuyBUPByZfdpxRetTAqheAdYTOUun19gDM2ePd3Tv_YZghl1plRSTn-bk4JvbCu2_z3XECOsdk-yKGS5Thm7WP5JRfiaTCY5jhjlzkc00TEzGvHfqVRdl_28QF7MTgdUv9sA8hlHGwy_UmS82BMHKUj0GGXh6Qs_drZd6ATpUGw8QqDvJ6Uvw9P0g5qjq-C1UBcb9-l1Uy4hkZ4=w1280
+  image: /images/people/emanuele-colonna.jpg
   homepage: https://colonnaemanuele.github.io/
   slug: emanuele-colonna
   profile: /people/emanuele-colonna/
@@ -75,7 +78,7 @@
   role: Ph.D. Student · XL Cycle
   group: PhD Students
   interests: Explainable AI, Uncertainty Modeling, Probabilistic Models, Fuzzy Clustering, AI for Procurement
-  image: https://lh3.googleusercontent.com/sitesv/AG8ngQVJ9kE1bT47o0osEe6tq7d9p3tz8lpK58UCUxv8BYCbTORx1CiYy83HVbHfUrEk8fWoTdOdtw6z4-3wg_zdQvxGww6BmYyh062IdqogjRXnqFBlw6cIQ-IPXK0--lFprrsGJshOWTtM4JoijU3zAdjFA7BCMF4AQICHE_MsXa_j1u3584zCUfyaT_0OqG9Kyn24ACXoW9bZfcp5hCqxgHHbxReZuR-w0f6PycT4AzA=w1280
+  image: /images/people/davide-cazzorla.jpg
   homepage: https://davidec00.github.io/
   slug: davide-cazzorla
   profile: /people/davide-cazzorla/
@@ -83,7 +86,7 @@
   role: Ph.D. Student · XL Cycle
   group: PhD Students
   interests: Large Language Models, Trustworthy AI, Human Capital Management
-  image: https://lh3.googleusercontent.com/sitesv/AG8ngQVRNtRNLbleiM8yOC66st5-JwZEkDMNNsBiCBBmhAVwEaUDRt71dHm7NfkwSKZhZjufUBf0G-861S8n7DQIdgxHf9kIoJwxhl-9tij2avUMGooHZ6ezn0fkxt2mpGTrHjYHRxD7uiUsFLf7PNrC9D-0IAnWNxd4bN_sHvgnNG4P-SbIKpqufen8D4C0CPnU9Uo52Qk0I9S8jmPjNQUbD6BmMlbURRrsQvkvugPu=w1280
+  image: /images/people/lucrezia-laraspata.jpg
   homepage: https://llaraspata.github.io/
   slug: lucrezia-laraspata
   profile: /people/lucrezia-laraspata/
@@ -91,7 +94,7 @@
   role: Ph.D. Student · XL Cycle
   group: PhD Students
   interests: Multimodal AI, Generative Models, Audio-Visual Learning
-  image: https://lh3.googleusercontent.com/sitesv/AG8ngQUWV6JOMSU-MaGsm9Vp6UVO5WFQSvdwxO1PUogeYURLJRt5MaH-r9Wu7Y2o-_jXxRZH3QGtbZ90zpqByfS1VuEaW71w6vsMealam49yv6Nc-UnVUA_V6oqVv8HDfPB7MALyao4FxVei_et9qFc1fyH2d50OUatlKRF_1BoDSyWQtaqu_uDx1qP1_gOIffPwCOCH1Ie3X2xVYHvCZiC0IpL1WlT3kqehljYRDdzs=w1280
+  image: /images/people/ivan-rinaldi.jpg
   homepage: https://justivanr.github.io/
   slug: ivan-rinaldi
   profile: /people/ivan-rinaldi/
@@ -99,7 +102,7 @@
   role: Ph.D. Student · XL Cycle
   group: PhD Students
   interests: Medical AI, Computer Vision, Explainable AI, Medical Imaging, Large Language Models
-  image: https://lh3.googleusercontent.com/sitesv/AG8ngQWc5OlkWvuPEvJg-vp7ENCuFpMwSo-mNyQDTAL_JUL8PMFLeqghLG6aIhzm0u4j2jlF9z0x1S_cWBdSGMn5AH-BKY5QK903A-_Q8A77LpKhg6H2LUzCxQoUhYMRk7FgTRZnoS3xfMY6TZa3fFcYv1HqYktzOaIr1vEMThnouUVY7FGKnPOoEdIXqor-bnzRxSPfqXUrQXSNoF44Xvn-aw34oOphO5evUuhjJcqs=w1280
+  image: /images/people/alberto-valerio.jpg
   homepage: https://phd.albertovalerio.com/
   slug: alberto-g-valerio
   profile: /people/alberto-g-valerio/
@@ -107,7 +110,7 @@
   role: Ph.D. Student · XLI Cycle
   group: PhD Students
   interests: Graph Neural Networks, Explainable AI, Brain Connectomics, Medical AI, Brain Diseases
-  image: https://lh3.googleusercontent.com/sitesv/AG8ngQU10JGxbby34Arydg8ry29TQ-DG-0DvnuoeFwBiorLPOdNks8Ri14mrL6zFInn9KGQD6_ZCoJjUlSP9I072d5RVnQ7vV-dlmTi0rGInYF5CTyt_3GXgXgR73MO5CG9-oWUvhWEHLf-UAzU6Fwv1MJdv0U3i_L5Pk73ourpozaiypzTPwAASMydPd-9zfN8ZoKF-xxS7LQokvUYc5j04Ssr9tPnXkzvZWSgU2duft_c=w1280
+  image: /images/people/walter-mangione.jpg
   homepage: https://rkmllh.github.io/
   slug: walter-mangione
   profile: /people/walter-mangione/
