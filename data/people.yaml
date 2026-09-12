@@ -85,7 +85,7 @@
 - name: Lucrezia Laraspata
   role: Ph.D. Student · XL Cycle
   group: PhD Students
-  interests: Large Language Models, Trustworthy AI, Human Capital Management
+  interests: Large Language Models, Mechanistic Interpretability, Trustworthy AI, Human Capital Management
   image: /images/people/lucrezia-laraspata.jpg
   homepage: https://llaraspata.github.io/
   slug: lucrezia-laraspata
@@ -124,7 +124,7 @@
 - name: Emanuele Fontana
   role: Ph.D. Student · XLII Cycle
   group: PhD Students
-  interests: Large Language Models, Mechanistic Interpretability, Representation Engineering, Multimodal AI, Trustworthy AI
+  interests: Large Language Models, Mechanistic Interpretability, Multimodal AI, Trustworthy AI
   image: /images/people/emanuele-fontana.jpg
   slug: emanuele-fontana
   profile: /people/emanuele-fontana/

@@ -2,7 +2,7 @@
 title: "Emanuele Fontana"
 role: "Ph.D. Student · XLII Cycle"
 image: "/images/people/emanuele-fontana.jpg"
-interests: ["Large Language Models", "Mechanistic Interpretability", "Representation Engineering", "Multimodal AI", "Trustworthy AI"]
+interests: ["Large Language Models", "Mechanistic Interpretability", "Multimodal AI", "Trustworthy AI"]
 ---
 
 Emanuele Fontana is a Ph.D. Student at the Computational Intelligence Laboratory (CILab), University of Bari Aldo Moro. His research focuses on **trustworthy foundation models and mechanistic interpretability**, with particular emphasis on the real-time detection and mitigation of hallucinations in Large Language Models.

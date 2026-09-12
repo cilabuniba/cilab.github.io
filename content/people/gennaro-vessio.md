@@ -1,6 +1,7 @@
 ---
 title: "Gennaro Vessio"
 role: "Associate Professor"
+email: "gennaro.vessio@uniba.it"
 image: "/images/people/gennaro-vessio.jpg"
 homepage: "https://www.gennarovessio.com/"
 interests: ["Deep Learning", "Computer Vision", "Multimodal AI", "Efficient AI", "Explainable AI"]
