@@ -3,7 +3,7 @@ title: "Pasquale De Marinis"
 role: "Postdoctoral Researcher"
 homepage: "https://pasqualedem.github.io/"
 image: "/images/people/pasquale-de-marinis.jpg"
-interests: ["Computer Vision", "Efficient Deep Learning", "Few-Shot Learning", "Drone Vision"]
+interests: ["Computer Vision", "Efficient AI", "Few-Shot Learning", "Drone Vision"]
 ---
 Pasquale De Marinis is a Postdoctoral Researcher at the Computational Intelligence Laboratory (CILab), University of Bari Aldo Moro. His research focuses on **Computer Vision and Deep Learning**, with particular attention to learning effectively from limited data and computational resources.
 

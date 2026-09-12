@@ -44,7 +44,7 @@
 - name: Pasquale De Marinis
   role: Postdoctoral Researcher
   group: Researchers
-  interests: Computer Vision, Efficient Deep Learning, Few-Shot Learning, Drone Vision
+  interests: Computer Vision, Efficient AI, Few-Shot Learning, Drone Vision
   homepage: https://pasqualedem.github.io/
   image: /images/people/pasquale-de-marinis.jpg
   slug: pasquale-de-marinis
@@ -114,3 +114,17 @@
   homepage: https://rkmllh.github.io/
   slug: walter-mangione
   profile: /people/walter-mangione/
+- name: Lorenzo Abatescianni
+  role: Ph.D. Student · XLII Cycle
+  group: PhD Students
+  interests: Neuro-Symbolic AI, Knowledge Graphs, Graph Neural Networks, Explainable AI, Railway Systems
+  image: /images/people/lorenzo-abatescianni.jpg
+  slug: lorenzo-abatescianni
+  profile: /people/lorenzo-abatescianni/
+- name: Emanuele Fontana
+  role: Ph.D. Student · XLII Cycle
+  group: PhD Students
+  interests: Large Language Models, Mechanistic Interpretability, Representation Engineering, Multimodal AI, Trustworthy AI
+  image: /images/people/emanuele-fontana.jpg
+  slug: emanuele-fontana
+  profile: /people/emanuele-fontana/
