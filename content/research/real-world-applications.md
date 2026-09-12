@@ -10,8 +10,8 @@ Real-world applications play an important role in CILab research. We develop and
 
 In **healthcare and biomedical applications**, we investigate Computational Intelligence and deep learning methods for medical images, physiological signals and heterogeneous clinical data. Explainability plays a particularly important role in this domain, where model predictions need to be interpreted and critically assessed.
 
-A more recent direction concerns **drone-based visual intelligence, monitoring and emergency response**. These scenarios combine computer vision with multimodal sensing and resource-efficient AI, while introducing practical constraints related to computation, environmental conditions and real-time operation.
+In **drone-based visual intelligence, monitoring and emergency response**, we investigate AI methods for autonomous and remotely operated aerial platforms. These scenarios combine computer vision with multimodal sensing and resource-efficient AI, while introducing practical constraints related to onboard computation, environmental conditions, real-time operation and system reliability. Applications include road safety, emergency response and intelligent monitoring.
 
-Our research has also addressed domains such as **sign language understanding and translation, agriculture and intelligent monitoring**, providing further settings in which methodological advances can be tested against concrete problems.
+Our research also extends to other complex domains, including **sign language understanding and translation, agriculture and safety-critical systems**, providing further settings in which methodological advances can be tested against concrete problems.
 
 We do not regard these domains simply as isolated case studies. Real-world applications expose limitations that conventional benchmarks may hide and generate new research questions concerning limited data, heterogeneous information, computational efficiency, explainability and robustness. This interaction between methodological research and experimentation is a defining aspect of CILab.
