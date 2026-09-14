@@ -60,8 +60,23 @@
       <div class="compact-people-list">
         {{ range site.Data.visitors }}
           <div class="visitor-item">
-            <strong>{{ .name }}</strong>
-            <span>{{ .year }}</span>
+            <div>
+              {{ if .url }}
+                <strong>
+                  <a href="{{ .url }}" target="_blank" rel="noopener">
+                    {{ .name }}
+                  </a>
+                </strong>
+              {{ else }}
+                <strong>{{ .name }}</strong>
+              {{ end }}
+
+              {{ with .affiliation }}
+                <span class="visitor-affiliation">{{ . }}</span>
+              {{ end }}
+            </div>
+
+            <span class="visitor-year">{{ .year }}</span>
           </div>
         {{ end }}
       </div>
@@ -75,8 +90,23 @@
       <div class="compact-people-list">
         {{ range site.Data.visiting_students }}
           <div class="visitor-item">
-            <strong>{{ .name }}</strong>
-            <span>{{ .year }}</span>
+            <div>
+              {{ if .url }}
+                <strong>
+                  <a href="{{ .url }}" target="_blank" rel="noopener">
+                    {{ .name }}
+                  </a>
+                </strong>
+              {{ else }}
+                <strong>{{ .name }}</strong>
+              {{ end }}
+
+              {{ with .affiliation }}
+                <span class="visitor-affiliation">{{ . }}</span>
+              {{ end }}
+            </div>
+
+            <span class="visitor-year">{{ .year }}</span>
           </div>
         {{ end }}
       </div>

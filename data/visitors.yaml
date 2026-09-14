@@ -1,28 +1,43 @@
 - name: Nicolás Marichal
   year: 2026
+  affiliation: University of La Laguna, Spain
+
 - name: Katarzyna Miś
   year: 2026
+  affiliation: University of Silesia in Katowice, Poland
+
 - name: Youssef Ghanou
   year: 2024
+  affiliation: Moulay Ismail University of Meknes, Morocco
+
 - name: Antonio Calcagnì
   year: 2024
+  affiliation: University of Padova, Italy
+
 - name: Riccardo Pecori
   year: 2024
+  affiliation: eCampus University, Italy
+
 - name: Daniel Peralta
   year: 2024
-  url: https://research.ugent.be/web/person/daniel-peralta-gutierrez-0/en
-- name: Agnieszka Jastrzebska
+  affiliation: Ghent University, Belgium
+
+- name: Agnieszka Jastrzębska
   year: 2024
-  url: https://ajastrzebska.mini.pw.edu.pl/
+  affiliation: Warsaw University of Technology, Poland
+
 - name: Daniele Di Mitri
   year: 2024
-  url: https://www.linkedin.com/in/danieledimitri/
+  affiliation: DIPF | Leibniz Institute for Research and Information in Education, Germany
+
 - name: Katarzyna Kaczmarek-Majer
   year: 2023
-  url: https://www.ibspan.waw.pl/~kmaj/
+  affiliation: Systems Research Institute, Polish Academy of Sciences, Poland
+
 - name: Martin Štěpnička
   year: 2018
-  url: https://ifm.osu.eu/
+  affiliation: University of Ostrava, Czech Republic
+
 - name: José María Alonso Moral
   year: 2017
-  url: https://citius.gal/team/jose-maria-alonso-moral/
+  affiliation: CiTIUS, University of Santiago de Compostela, Spain
