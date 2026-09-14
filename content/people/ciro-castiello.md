@@ -11,3 +11,9 @@ Ciro Castiello is an Associate Professor at the Department of Computer Science, 
 A central theme of his research is the relationship between **predictive capability and interpretability**, connecting traditional fuzzy modelling with contemporary Explainable Artificial Intelligence.
 
 He has participated in several research projects and is active in national and international scientific communities in fuzzy systems, soft computing and Computational Intelligence.
+
+### Current teaching
+
+- Computational Thinking and Programming, M.Sc. in Digital Heritage
+- Computer Architecture and Operating Systems, B.Sc. programs in Computer Science
+- Computer Science, B.Sc. in Mathematics

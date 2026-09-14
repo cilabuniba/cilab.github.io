@@ -15,5 +15,5 @@ She is active in international scientific service and in research communities in
 ### Current teaching
 
 - Explainable Artificial Intelligence, M.Sc. in Computer Science
-- Databases, B.Sc. in Computer Science
 - Intelligent Systems for Digital Communication, B.Sc. in Computer Science
+- Databases, B.Sc. in Computer Science

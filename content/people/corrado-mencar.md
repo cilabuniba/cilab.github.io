@@ -11,3 +11,9 @@ Corrado Mencar is an Associate Professor in Computer Science at the University o
 His work investigates fuzzy and granular models, information granulation and interpretable machine-learning approaches, contributing to the broader development of **Explainable Artificial Intelligence** from a Computational Intelligence perspective.
 
 He is active in scientific societies and international initiatives related to fuzzy systems, granular computing and explainable AI.
+
+### Current teaching
+
+- Information Theory, M.Sc. in Computer Science
+- Uncertainty Management in Information, M.Sc. in Data Science
+- Foundations of Programming for Data Science, M.Sc. in Data Science
