@@ -1,5 +1,5 @@
 ---
-title: "Paper accepted at NeurIPS 2026!"
+title: "Paper accepted at NeurIPS 2026"
 date: 2026-09-24
 summary: "A CILab paper has been accepted at NeurIPS 2026."
 ---
