@@ -1,25 +1,17 @@
 {{ define "main" }}
 {{ $years := slice }}{{ range site.Data.publications }}{{ $years = $years | append .year }}{{ end }}
-<section class="page-hero"><div class="shell narrow"><p class="chip">Research output</p><h1>Publications</h1><p class="page-lead">A selection of recent and representative publications by CILab members across the laboratory's main research areas.</p></div></section>
-<section class="section pub-section">
-  <div class="shell">
-    <div class="pub-toolbar" hidden>
-      <label class="search"><span class="sr-only">Search publications</span>{{ partial "icon.html" "search" }}<input type="search" id="pub-search" placeholder="Search title, author or venue…" autocomplete="off"></label>
-      <div class="chip-row" role="group" aria-label="Filter by year">
-        <button type="button" class="filter-chip is-on" data-year="">All</button>
-        {{ range sort ($years | uniq) "value" "desc" }}<button type="button" class="filter-chip" data-year="{{ . }}">{{ . }}</button>{{ end }}
-      </div>
-      <p class="pub-count" aria-live="polite"></p>
-    </div>
-    <div class="pub-group">
-      <div class="section-head"><div><h2>Recent publications</h2></div></div>
-      <div class="pub-grid">{{ range where site.Data.publications "category" "recent" }}{{ partial "publication-card.html" . }}{{ end }}</div>
-    </div>
-    <div class="pub-group">
-      <div class="section-head"><div><h2>Selected landmark publications</h2><p class="section-note">Publications that reflect the scientific roots and evolution of the laboratory.</p></div></div>
-      <div class="pub-grid">{{ range where site.Data.publications "category" "landmark" }}{{ partial "publication-card.html" . }}{{ end }}</div>
-    </div>
-    <p class="pub-empty" hidden>No publications match your search.</p>
+<div class="page-title"><h1>Publications</h1><p class="page-lead">Selected publications by CILab members.</p></div>
+<div class="pub-toolbar" hidden>
+  <label class="search"><span class="sr-only">Search publications</span>{{ partial "icon.html" "search" }}<input type="search" id="pub-search" placeholder="Search title, author or venue" autocomplete="off"></label>
+  <div class="chip-row" role="group" aria-label="Filter by year">
+    <button type="button" class="filter-chip is-on" data-year="">All</button>
+    {{ range sort ($years | uniq) "value" "desc" }}<button type="button" class="filter-chip" data-year="{{ . }}">{{ . }}</button>{{ end }}
   </div>
-</section>
+  <p class="pub-count" aria-live="polite"></p>
+</div>
+<section class="section pub-group"><div class="section-head"><h2>Recent</h2></div>
+  <div class="pub-grid">{{ range where site.Data.publications "category" "recent" }}{{ partial "publication-card.html" . }}{{ end }}</div></section>
+<section class="section pub-group"><div class="section-head"><div><h2>Earlier selected work</h2><p class="note">Publications that reflect the scientific roots of the laboratory.</p></div></div>
+  <div class="pub-grid">{{ range where site.Data.publications "category" "landmark" }}{{ partial "publication-card.html" . }}{{ end }}</div></section>
+<p class="pub-empty" hidden>No publications match your search.</p>
 {{ end }}

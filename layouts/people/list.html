@@ -1,52 +1,22 @@
 {{ define "main" }}
-<section class="page-hero"><div class="shell narrow"><p class="chip">The lab</p><h1>People</h1><p class="page-lead">Faculty, researchers and doctoral students working across Computational Intelligence and its applications.</p></div></section>
-
+<div class="page-title"><h1>People</h1></div>
+{{ range $group := slice "Faculty" "Researchers" "PhD Students" }}
 <section class="section">
-  <div class="shell people-sections">
-    {{ range $group := slice "Faculty" "Researchers" "PhD Students" }}
-    <section>
-      <div class="section-head"><div><h2>{{ $group }}</h2></div></div>
-      <div class="people-grid">
-        {{ range where site.Data.people "group" $group }}
-        <a class="card card-link person-card" href="{{ .profile }}" data-reveal>
-          <div class="person-photo-wrap">
-            {{ if .image }}{{ partial "photo.html" (dict "src" .image "alt" .name "size" 400 "class" "person-photo") }}{{ else }}<div class="person-avatar">{{ substr .name 0 1 }}</div>{{ end }}
-          </div>
-          <div class="person-body">
-            <p class="person-role">{{ .role }}</p>
-            <h3>{{ .name }}</h3>
-            <div class="tag-row">{{ range first 3 (split .interests ", ") }}<span class="tag">{{ . }}</span>{{ end }}</div>
-          </div>
-        </a>
-        {{ end }}
-      </div>
-    </section>
+  <div class="section-head"><h2>{{ $group }}</h2></div>
+  <div class="people-grid">
+    {{ range where site.Data.people "group" $group }}
+    <a class="card person-card" href="{{ .profile }}">
+      <div class="person-photo-wrap">{{ if .image }}{{ partial "photo.html" (dict "src" .image "alt" "" "size" 400 "class" "person-photo") }}{{ else }}<div class="person-avatar">{{ substr .name 0 1 }}</div>{{ end }}</div>
+      <div class="person-body"><p class="person-role">{{ .role }}</p><h3>{{ .name }}</h3></div>
+    </a>
     {{ end }}
-
-    <section>
-      <div class="section-head"><div><h2>Visiting Professors</h2></div></div>
-      <div class="compact-list">
-        {{ range site.Data.visitors }}
-        <div class="compact-item"><div>{{ if .url }}<strong><a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a></strong>{{ else }}<strong>{{ .name }}</strong>{{ end }}{{ with .affiliation }}<span class="sub">{{ . }}</span>{{ end }}</div><span class="chip">{{ .year }}</span></div>
-        {{ end }}
-      </div>
-    </section>
-
-    <section>
-      <div class="section-head"><div><h2>Visiting Students</h2></div></div>
-      <div class="compact-list">
-        {{ range site.Data.visiting_students }}
-        <div class="compact-item"><div>{{ if .url }}<strong><a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a></strong>{{ else }}<strong>{{ .name }}</strong>{{ end }}{{ with .affiliation }}<span class="sub">{{ . }}</span>{{ end }}</div><span class="chip">{{ .year }}</span></div>
-        {{ end }}
-      </div>
-    </section>
-
-    <section>
-      <div class="section-head"><div><h2>Alumni</h2></div></div>
-      <div class="compact-list">
-        {{ range site.Data.alumni }}<div class="compact-item"><strong>{{ .name }}</strong><span class="chip">{{ .note }}</span></div>{{ end }}
-      </div>
-    </section>
   </div>
 </section>
+{{ end }}
+<section class="section"><div class="section-head"><h2>Visiting professors</h2></div>
+  <ul class="compact-list">{{ range site.Data.visitors }}<li><div>{{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener"><strong>{{ .name }}</strong></a>{{ else }}<strong>{{ .name }}</strong>{{ end }}{{ with .affiliation }}<span class="sub">{{ . }}</span>{{ end }}</div><span class="chip">{{ .year }}</span></li>{{ end }}</ul></section>
+<section class="section"><div class="section-head"><h2>Visiting students</h2></div>
+  <ul class="compact-list">{{ range site.Data.visiting_students }}<li><div>{{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener"><strong>{{ .name }}</strong></a>{{ else }}<strong>{{ .name }}</strong>{{ end }}{{ with .affiliation }}<span class="sub">{{ . }}</span>{{ end }}</div><span class="chip">{{ .year }}</span></li>{{ end }}</ul></section>
+<section class="section"><div class="section-head"><h2>Alumni</h2></div>
+  <ul class="compact-list">{{ range site.Data.alumni }}<li><strong>{{ .name }}</strong><span class="chip">{{ .note }}</span></li>{{ end }}</ul></section>
 {{ end }}
