@@ -1,8 +1,14 @@
 <footer class="site-footer">
   <div class="shell footer-top">
-    <div><img src="/images/cilab-logo-white.svg" alt="CILab" class="footer-logo"><p>Computational Intelligence Laboratory</p></div>
-    <div><p>{{ site.Params.department }}<br>{{ site.Params.university }}<br>{{ site.Params.address }}</p></div>
-    <div class="footer-links"><a href="/research/">Research</a><a href="/projects/">Projects</a><a href="/publications/">Publications</a><a href="/people/">People</a><a href="/theses/">Theses</a><a href="/news/">News</a><a href="/contact/">Contact</a></div>
+    <div class="footer-brand">
+      <img src="/images/cilab-logo-white.svg" alt="CILab" class="footer-logo" width="96" height="60" loading="lazy">
+      <p>Computational Intelligence Laboratory</p>
+      <p class="footer-addr">{{ site.Params.department }}<br>{{ site.Params.university }}<br>{{ site.Params.address }}</p>
+    </div>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <h2>Explore</h2>
+      {{ range site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
+    </nav>
   </div>
   <div class="shell footer-bottom"><span>© {{ now.Year }} CILab</span><span>University of Bari Aldo Moro</span></div>
 </footer>

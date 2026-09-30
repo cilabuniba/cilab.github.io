@@ -41,3 +41,24 @@ disableKinds = ['taxonomy','term']
 
 [markup.goldmark.renderer]
 unsafe = true
+
+# Mount the people photos also as assets so Hugo can resize them (WebP, small thumbnails).
+[module]
+  [[module.mounts]]
+    source = 'content'
+    target = 'content'
+  [[module.mounts]]
+    source = 'data'
+    target = 'data'
+  [[module.mounts]]
+    source = 'layouts'
+    target = 'layouts'
+  [[module.mounts]]
+    source = 'static'
+    target = 'static'
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    source = 'static/images/people'
+    target = 'assets/img/people'

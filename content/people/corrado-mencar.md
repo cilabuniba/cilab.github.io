@@ -17,3 +17,4 @@ He is active in scientific societies and international initiatives related to fu
 - Information Theory, M.Sc. in Computer Science
 - Uncertainty Management in Information, M.Sc. in Data Science
 - Foundations of Programming for Data Science, M.Sc. in Data Science
+- Computational Intelligence, B.Sc. in Computer Science

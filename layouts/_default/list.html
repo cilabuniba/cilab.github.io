@@ -1,7 +1,7 @@
 {{ define "main" }}
-<section class="page-hero"><div class="shell narrow"><p class="eyebrow">CILab</p><h1>{{ .Title }}</h1>{{ with .Params.lead }}<p class="page-lead">{{ . }}</p>{{ end }}</div></section>
+<section class="page-hero"><div class="shell narrow"><p class="chip">CILab</p><h1>{{ .Title }}</h1>{{ with .Params.lead }}<p class="page-lead">{{ . }}</p>{{ end }}</div></section>
 <section class="section"><div class="shell">{{ .Content }}
-{{ if eq .Section "research" }}<div class="research-grid research-list">{{ range .Pages.ByParam "order" }}<a class="research-card" href="{{ .RelPermalink }}"><div class="card-index">0{{ .Params.order }}</div><h3>{{ .Title }}</h3><p>{{ .Params.summary }}</p><span>Discover more →</span></a>{{ end }}</div>{{ end }}
-{{ if eq .Section "news" }}<div class="news-list">{{ range .Pages.ByDate.Reverse }}<article><time>{{ .Date.Format "02 Jan 2006" }}</time><div><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><p>{{ .Params.summary }}</p></div></article>{{ end }}</div>{{ end }}
+{{ if eq .Section "research" }}<div class="card-grid cols-3">{{ $icons := slice "vision" "fuzzy" "apps" }}{{ range $i, $p := .Pages.ByParam "order" }}<a class="card card-link research-card" href="{{ .RelPermalink }}" data-reveal><span class="card-icon">{{ partial "icon.html" (index $icons (mod $i 3)) }}</span><h3>{{ .Title }}</h3><p>{{ .Params.summary }}</p><span class="card-more">Discover more {{ partial "icon.html" "arrow" }}</span></a>{{ end }}</div>{{ end }}
+{{ if eq .Section "news" }}<div class="news-list">{{ range .Pages.ByDate.Reverse }}<a class="news-row" href="{{ .RelPermalink }}" data-reveal><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time><div><h2>{{ .Title }}</h2><p>{{ .Params.summary }}</p></div><span class="news-arrow">{{ partial "icon.html" "arrow" }}</span></a>{{ end }}</div>{{ end }}
 </div></section>
 {{ end }}
