@@ -1,7 +1,8 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://cilab.di.uniba.it/'
 languageCode = 'en-us'
 title = 'CILab — Computational Intelligence Laboratory'
 disableKinds = ['taxonomy','term']
+publishDir = 'public'
 
 [params]
   description = 'Computational Intelligence Laboratory — Department of Computer Science, University of Bari Aldo Moro.'
