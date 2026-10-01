@@ -29,12 +29,6 @@ jobs:
       - name: Build site
         run: hugo --minify
 
-      - name: Copy CNAME
-        run: |
-          if [ -f CNAME ]; then
-            cp CNAME public/CNAME
-          fi
-
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
