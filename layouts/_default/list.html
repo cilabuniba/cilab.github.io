@@ -2,6 +2,6 @@
 <section class="page-hero"><div class="shell narrow"><p class="eyebrow">CILab</p><h1>{{ .Title }}</h1>{{ with .Params.lead }}<p class="page-lead">{{ . }}</p>{{ end }}</div></section>
 <section class="section"><div class="shell">{{ .Content }}
 {{ if eq .Section "research" }}<div class="research-grid research-list">{{ range .Pages.ByParam "order" }}<a class="research-card" href="{{ .RelPermalink }}"><div class="card-index">0{{ .Params.order }}</div><h3>{{ .Title }}</h3><p>{{ .Params.summary }}</p><span>Discover more →</span></a>{{ end }}</div>{{ end }}
-{{ if eq .Section "news" }}<div class="news-list">{{ range .Pages.ByDate.Reverse }}<article><time>{{ .Date.Format "02 Jan 2006" }}</time><div><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><p>{{ .Params.summary }}</p></div></article>{{ end }}</div>{{ end }}
+{{ if eq .Section "news" }}<div class="news-list">{{ range .Pages.ByDate.Reverse }}{{ $p := . }}<article{{ with .Params.image }} class="has-thumb"{{ end }}><time>{{ .Date.Format "02 Jan 2006" }}</time><div><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><p>{{ .Params.summary }}</p></div>{{ with .Params.image }}<a class="news-thumb{{ if eq $p.Params.imageFit "contain" }} is-contain{{ end }}"{{ with $p.Params.imageBg }} style="background:{{ . | safeCSS }}"{{ end }} href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ . }}" alt="" loading="lazy"></a>{{ end }}</article>{{ end }}</div>{{ end }}
 </div></section>
 {{ end }}

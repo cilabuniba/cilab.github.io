@@ -66,7 +66,7 @@
 <section class="section news-home">
   <div class="shell">
     <div class="section-title-row"><div><p class="section-kicker">News</p><h2>Latest from CILab</h2></div><a class="text-link" href="/news/">News archive</a></div>
-    <div class="news-home-grid">{{ range first 3 (where site.RegularPages "Section" "news") }}<article class="news-item-home"><time>{{ .Date.Format "02 Jan 2006" }}</time><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Params.summary }}</p><a class="text-link small" href="{{ .RelPermalink }}">Read more</a></article>{{ end }}</div>
+    <div class="news-home-grid">{{ range first 3 (where site.RegularPages "Section" "news") }}<article class="news-item-home"><a class="news-home-media{{ if not .Params.image }} is-placeholder{{ end }}{{ if eq .Params.imageFit "contain" }} is-contain{{ end }}"{{ with .Params.imageBg }} style="background:{{ . | safeCSS }}"{{ end }} href="{{ .RelPermalink }}" tabindex="-1" aria-hidden="true">{{ with .Params.image }}<img src="{{ . }}" alt="" loading="lazy">{{ else }}<img src="/images/cilab-logo-blue.svg" alt="" loading="lazy">{{ end }}</a><time>{{ .Date.Format "02 Jan 2006" }}</time><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Params.summary }}</p><a class="text-link small" href="{{ .RelPermalink }}">Read more</a></article>{{ end }}</div>
   </div>
 </section>
 
