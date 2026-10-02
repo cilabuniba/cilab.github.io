@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="profile-hero"><div class="shell profile-hero-grid">
-  <div class="profile-photo-wrap">{{ if .Params.image }}<img class="profile-photo" src="{{ .Params.image }}" alt="{{ .Title }}" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">{{ end }}<div class="profile-avatar" {{ if .Params.image }}style="display:none"{{ end }}>{{ substr .Title 0 1 }}</div></div>
+  <div class="profile-photo-wrap">{{ if .Params.image }}{{ $src := resources.Get (strings.TrimPrefix "/" .Params.image) }}{{ if $src }}{{ $x1 := $src.Fill "180x220 Center" }}{{ $x2 := $src.Fill "360x440 Center" }}<img class="profile-photo" src="{{ $x1.RelPermalink }}" srcset="{{ $x1.RelPermalink }} 1x, {{ $x2.RelPermalink }} 2x" width="180" height="220" alt="{{ .Title }}" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">{{ else }}<img class="profile-photo" src="{{ .Params.image }}" alt="{{ .Title }}" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">{{ end }}{{ end }}<div class="profile-avatar" {{ if .Params.image }}style="display:none"{{ end }}>{{ substr .Title 0 1 }}</div></div>
   <div><p class="eyebrow">CILab · People</p><h1>{{ .Title }}</h1><p class="profile-role">{{ .Params.role }}</p>
   <div class="profile-meta">{{ with .Params.email }}<a href="mailto:{{ . }}">{{ . }}</a>{{ end }}{{ with .Params.location }}<span>{{ . }}</span>{{ end }}{{ with .Params.homepage }}<a href="{{ . }}" target="_blank" rel="noopener">Personal / institutional page ↗</a>{{ end }}</div>
   </div>

@@ -42,3 +42,8 @@ publishDir = 'public'
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[imaging]
+  resampleFilter = "Lanczos"
+  quality = 86
+  anchor = "Center"

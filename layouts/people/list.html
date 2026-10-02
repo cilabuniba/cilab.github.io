@@ -25,6 +25,20 @@
 
           <div class="person-photo-wrap">
             {{ if .image }}
+            {{ $src := resources.Get (strings.TrimPrefix "/" .image) }}
+            {{ if $src }}
+            {{ $x1 := $src.Fill "84x104 Center" }}
+            {{ $x2 := $src.Fill "168x208 Center" }}
+            <img
+              class="person-photo"
+              src="{{ $x1.RelPermalink }}"
+              srcset="{{ $x1.RelPermalink }} 1x, {{ $x2.RelPermalink }} 2x"
+              width="84" height="104"
+              alt="{{ .name }}"
+              loading="lazy"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"
+            >
+            {{ else }}
             <img
               class="person-photo"
               src="{{ .image }}"
@@ -32,6 +46,7 @@
               loading="lazy"
               onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"
             >
+            {{ end }}
             {{ end }}
 
             <div class="person-avatar" {{ if .image }}style="display:none"{{ end }}>
